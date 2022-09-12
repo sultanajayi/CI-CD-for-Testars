@@ -1,9 +1,9 @@
  
  name: GitHub Action Demo
-on: [ push ]
-  jobs:
+ on: [ push ]
+ jobs:
     Test: 
      runs-on: windows-latest
      steps:
-  - run: echo "The job was automatically triggered by a ${{github.event_name}}event."
-  - run: echo python main.py
+       - run: echo "The job was automatically triggered by a ${{github.event_name}}event."
+       - run: echo python main.py
