@@ -10,5 +10,5 @@ name: Merge CI-CD
        - uses: actions/checkout@v2
        - run: echo "The job was automatically triggered by a ${{github.event_name}}event."
        - run: echo python main.py
-       - run: echo python main.py
+       
        
